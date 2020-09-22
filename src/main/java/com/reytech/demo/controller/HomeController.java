@@ -14,7 +14,7 @@ public class HomeController {
 
     @GetMapping("/message")
     public String message(Model model) {
-        model.addAttribute("message", "This is a custom message 2 ");
+        model.addAttribute("message", "This is a custom message 5 ");
         return "message";
     }
 }
